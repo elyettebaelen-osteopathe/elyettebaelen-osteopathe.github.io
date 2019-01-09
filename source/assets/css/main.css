@@ -207,6 +207,7 @@ input, select, textarea {
 		}
 
 	h1 {
+		font-family : 'Times New Roman';
 		font-size: 2.5em;
 		line-height: 1.2;
 	}
@@ -1851,6 +1852,24 @@ input, select, textarea {
 		white-space: nowrap;
 	}
 
+.firstButton {
+	-webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 300;
+    padding: 2.0em 2.0em 2.0em 2.0em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+	background-color: white;
+    color: #2E5A73 !important;
+}
 		input[type="submit"].icon,
 		input[type="reset"].icon,
 		input[type="button"].icon,
@@ -3080,10 +3099,10 @@ input, select, textarea {
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 3s ease;
-				-webkit-transition: opacity 3s ease;
-				-ms-transition: opacity 3s ease;
-				transition: opacity 3s ease;
+				-moz-transition: opacity 0.5s ease;
+				-webkit-transition: opacity 0.5s ease;
+				-ms-transition: opacity 0.5s ease;
+				transition: opacity 0.5s ease;
 				-moz-transition-delay: 0.5s;
 				-webkit-transition-delay: 0.5s;
 				-ms-transition-delay: 0.5s;
@@ -3092,10 +3111,10 @@ input, select, textarea {
 			}
 
 			#header.alt .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
-				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
-				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
-				transition: opacity 1.25s ease, transform 0.5s ease;
+				-moz-transition: opacity 1.0s ease, -moz-transform 0.5s ease;
+				-webkit-transition: opacity 1.0s ease, -webkit-transform 0.5s ease;
+				-ms-transition: opacity 1.0s ease, -ms-transform 0.5s ease;
+				transition: opacity 1.0s ease, transform 0.5s ease;
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
