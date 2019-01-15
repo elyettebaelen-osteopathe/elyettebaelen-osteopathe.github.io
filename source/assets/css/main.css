@@ -1983,7 +1983,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: #8cc9f0;
 			color: #ffffff !important;
-			font-size: 1.1em;
+			font-size: 1.0em;
 			font-weight: bold;
 			box-shadow: none;
 		}
