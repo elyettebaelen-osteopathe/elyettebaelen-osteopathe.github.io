@@ -1852,6 +1852,17 @@ input, select, textarea {
 		white-space: nowrap;
 	}
 
+.mainImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	    display: flex;
+    width: 50%;
+    /*margin: 0 0 3em 0;*/
+    padding: 0;
+    list-style: none;
+    cursor: default;
+}
 .firstButton {
 	-webkit-appearance: none;
     -ms-appearance: none;
